@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LENS</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="Logo">LENS</a>
+
+        <ul class="navbar">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="AssessmentPage.html"> Assessment</a></li>
+            <li><a href="StrandPage.html"> Strands</a></li>
+            <button type="button" class="btnLogin-popup"> Login</button>
+        </ul>
+    </header>
+    <h1 id="Hlens">
+        Lens
+    </h1>
+    <p id="lensInfo">
+        The innovative product, Lens, tailored to STI standards,
+        addresses the unique academic needs of Sta. Mesa students.
+        By supporting Lens, STI Sta. Mesa can revolutionize career guidance,
+        shaping a generation with clarity and purpose in academic and career pursuits.
+        Lens goes beyond being a tool; it's an investment in the future of education,
+        offering a transformative impact that empowers countless students on their educational journeys.
+        The alliance with Lens is an opportunity for STI Sta. Mesa to play a pivotal role in advancing
+        education and ensuring the success and fulfillment of their students.
+    </p>
+    <div class="container">
+        <div class="main-box login">
+            <h1>Login</h1>
+            <form action="">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" class="passwordInput" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="check">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forget Password</a>
+                </div>
+
+                <button type="submit" class="main-btn">Login</button>
+
+                <div class="register">
+                    <p>If you don't have an account?<br> <a href="#" class="register-link">Register Here!
+                        </a></p>
+                </div>
+            </form>
+        </div>
+        <div class="main-box register">
+            <h1>Registration</h1>
+            <form action="">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user'></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" class="passwordInput" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="check">
+                    <label><input type="checkbox">I accept all terms & conditions</label>
+                </div>
+
+                <button type="submit" class="main-btn">Register Now</button>
+
+                <div class="register">
+                    <p>Already have an account?<br><a href="#" class="login-link">Login!
+                        </a></p>
+                </div>
+            </form>
+        </div>
+        <span class="close-icon">
+            <div class="bx bx-x"></div>
+        </span>
+    </div>
+    <script src="mainScript.js"></script>
+</body>
+
+</html>
